@@ -2,7 +2,7 @@
 
 ## S3_Rad2TOA_reproj2_MODIS_Sin
 
-It works with OLCI product S3A_OL_1_EFR____
+It works with OLCI product [S3A_OL_1_EFR](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/olci-L0L1/S3A_OL_1_EFR/) at 300m. The full resolution is required in order to resample to the 500m MODIS resolution.
 
 * Script requires as an input parameter the MODIS tile, e.g. h18v04
 * It wll read all availables images in DATADIR
