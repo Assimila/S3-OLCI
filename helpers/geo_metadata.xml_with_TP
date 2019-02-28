@@ -1,0 +1,10 @@
+  <Metadata domain="GEOLOCATION">
+     <mdi key="X_DATASET">TP_longitude.tif</mdi>
+     <mdi key="X_BAND">1</mdi>
+     <mdi key="Y_DATASET">TP_latitude.tif</mdi>
+     <mdi key="Y_BAND">1</mdi>
+     <mdi key="PIXEL_OFFSET">0</mdi>
+     <mdi key="LINE_OFFSET">0</mdi>
+     <mdi key="PIXEL_STEP">1</mdi>
+     <mdi key="LINE_STEP">1</mdi>
+  </Metadata>

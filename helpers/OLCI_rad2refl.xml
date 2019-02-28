@@ -1,0 +1,21 @@
+ <graph id="someGraphId">
+    <version>1.0</version>
+    <node id="OLCI">
+      <operator>Read</operator>
+      <sources/>
+      <parameters>
+        <file>PATH/xfdumanifest.xml</file>
+      </parameters>
+    </node>
+    <node id="rad2refl">
+      <operator>Rad2Refl</operator>
+      <sources>
+        <source>OLCI</source>
+      </sources>
+      <parameters>
+        <sensor>OLCI</sensor>
+        <conversionMode>RAD_TO_REFL</conversionMode>
+        <copyNonSpectralBands>false</copyNonSpectralBands>
+      </parameters>
+    </node>
+  </graph>
